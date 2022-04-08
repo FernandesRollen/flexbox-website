@@ -61,32 +61,25 @@ nav {
     display: flex;
     flex-direction: column;
   }
-<<<<<<< HEAD
-=======
 
   .container {
     display: flex;
     flex-direction: column;
     padding-right: 8%;
     padding-left: 8%;
-/*     margin-top: 3rem; */
-/*     margin-bottom: 3rem; */
   }
->>>>>>> 04608a8cc5c8c342c08750ef3e6820f939922a37
 }
 
 @media (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
-<<<<<<< HEAD
-=======
 
   .content-left{
   width:100%;
     
   }
->>>>>>> 04608a8cc5c8c342c08750ef3e6820f939922a37
+
   .nav-links {
     position: absolute;
     height: 90vh;
@@ -152,25 +145,17 @@ li a:hover::after {
 /* main section///////////////////////////////////////////// */
 main {
   display: flex;
-<<<<<<< HEAD
-=======
-/*   height: 100vh; */
->>>>>>> 04608a8cc5c8c342c08750ef3e6820f939922a37
   align-items: center;
-  justify-content: center;
-  /* background-color: red; */
+  justify-content:center;
 }
 .hero-img {
   width: 650px;
 }
 
 .content-left {
-<<<<<<< HEAD
   width: 30%;
-=======
-  padding-left:8%
-    padding-right:8%;
->>>>>>> 04608a8cc5c8c342c08750ef3e6820f939922a37
+  padding-right:8%;
+  padding-left:8%;
 }
 
 h1 {
