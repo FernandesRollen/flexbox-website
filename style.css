@@ -77,9 +77,15 @@ nav {
 
   .content-left{
   width:100%;
-    
+  /* text-align: center; */
+  align-items: center;
+  padding: 0;
   }
 
+  h1 h2{
+    width: 100%;
+    text-align: center;
+  }
   .nav-links {
     position: absolute;
     height: 90vh;
@@ -154,8 +160,6 @@ main {
 
 .content-left {
   width: 30%;
-  padding-right:8%;
-  padding-left:8%;
 }
 
 h1 {
