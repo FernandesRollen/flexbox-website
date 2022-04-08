@@ -61,23 +61,32 @@ nav {
     display: flex;
     flex-direction: column;
   }
+<<<<<<< HEAD
+=======
 
   .container {
     display: flex;
     flex-direction: column;
     padding-right: 8%;
-    padding-right: 8%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    padding-left: 8%;
+/*     margin-top: 3rem; */
+/*     margin-bottom: 3rem; */
   }
+>>>>>>> 04608a8cc5c8c342c08750ef3e6820f939922a37
 }
 
 @media (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
+<<<<<<< HEAD
+=======
 
-  
+  .content-left{
+  width:100%;
+    
+  }
+>>>>>>> 04608a8cc5c8c342c08750ef3e6820f939922a37
   .nav-links {
     position: absolute;
     height: 90vh;
@@ -103,9 +112,6 @@ nav {
     cursor: pointer;
   }
 }
-.nav-active {
-  transform: translateX(0%);
-}
 @keyframes navLinkFade {
   from {
     opacity: 0;
@@ -116,7 +122,10 @@ nav {
     transform: translateX(0px);
   }
 }
-
+.nav-active {
+ transform: translateX(0%);
+}
+/* /////////////////////////////////////////////////////////////////////// */
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
 }
@@ -143,17 +152,25 @@ li a:hover::after {
 /* main section///////////////////////////////////////////// */
 main {
   display: flex;
-  height: 100vh;
+<<<<<<< HEAD
+=======
+/*   height: 100vh; */
+>>>>>>> 04608a8cc5c8c342c08750ef3e6820f939922a37
   align-items: center;
   justify-content: center;
   /* background-color: red; */
 }
 .hero-img {
-  max-width: 650px;
+  width: 650px;
 }
 
 .content-left {
-  max-width: 30%;
+<<<<<<< HEAD
+  width: 30%;
+=======
+  padding-left:8%
+    padding-right:8%;
+>>>>>>> 04608a8cc5c8c342c08750ef3e6820f939922a37
 }
 
 h1 {
@@ -190,57 +207,3 @@ p {
 .btn:hover {
   background-color: gray;
 }
-
-.container {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-/* .section-styling {
-  display:grid;
-  grid-auto-flow: row;
-  grid-template-rows: 1fr;
-} */
-
-.container {
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 8%;
-  padding-right: 8%;
-}
-.font-awesome {
-  color: blue;
-  text-align: center;
-  width: 100%;
-}
-
-.container p {
-  color: grey;
-}
-
-/* 
-@media (max-width: 1000px) {
-    main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .content-left {
-    width: 50%;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 10px auto;
-  }
-  .section-styling {
-      margin: 10px auto;
-      text-align: center;
-      padding: 10px auto;
-      max-width: 100%;
-    }
-} */
