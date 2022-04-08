@@ -53,77 +53,77 @@ nav {
   transition: all 0.3s ease;
 }
 /* mobile///////////////////////////////////////////////////// */
-@media (max-width:1024px){
-    .nav-links{
-        width: 60%;
-    }
-    main{
-        display: flex;
-        flex-direction: column;
-    }
+@media (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 8%;
+    padding-right: 8%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
 }
 
-@media (max-width:768px){
-    body{
-        overflow-x: hidden;
-    }
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
 
-    .nav-links{
-        position: absolute;
-        height: 90vh;
-        top: 10vh;
-        background-color:white ;
-        /* border: 2px solid red; */
-        right: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-        /* border: 2px solid red; */
+  .nav-links {
+    position: absolute;
+    height: 90vh;
+    top: 10vh;
+    background-color: white;
+    /* border: 2px solid red; */
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    /* border: 2px solid red; */
+  }
 
-    }
-    .container{
-        display: flex;
-        flex-direction: column;
-        padding-right: 8%;
-        padding-right: 8%;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-    }
-
-    .nav-links li{
-        opacity: 0;
-    }
-
-    .burger{
-        display: block;
-        cursor: pointer;
-    }
-}
-.nav-active{
-    transform: translateX(0%);
-}
-@keyframes navLinkFade{
-    from{
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-.toggle .line1{
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-.toggle .line2{
+  .nav-links li {
     opacity: 0;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
 }
-.toggle .line3{
-    transform: rotate(45deg) translate(-5px,-6px);
+.nav-active {
+  transform: translateX(0%);
+}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 /* animation////////////////////////////////////////////////// */
 li a::after {
@@ -173,43 +173,42 @@ p {
   line-height: 30px;
 }
 .cta-btn {
-    padding: 15px 30px;
-    background-color: rgb(49, 49, 240);
-    border-radius: 50px;
-    color: white;
-    border: none;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: 2rem auto;
-    font-size: 17px;
-    font-weight: 200;
+  padding: 15px 30px;
+  background-color: rgb(49, 49, 240);
+  border-radius: 50px;
+  color: white;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 2rem auto;
+  font-size: 17px;
+  font-weight: 200;
 }
 
 .btn:hover {
-    background-color: gray;
+  background-color: gray;
 }
 
-
-.container{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
- /* .section-styling {
+/* .section-styling {
   display:grid;
   grid-auto-flow: row;
   grid-template-rows: 1fr;
 } */
 
-.container{
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 8%;
-    padding-right: 8%;
+.container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 8%;
 }
-.font-awesome  {
+.font-awesome {
   color: blue;
   text-align: center;
   width: 100%;
@@ -218,7 +217,6 @@ p {
 .container p {
   color: grey;
 }
-
 
 /* 
 @media (max-width: 1000px) {
