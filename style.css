@@ -67,8 +67,8 @@ nav {
     flex-direction: column;
     padding-right: 8%;
     padding-right: 8%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+/*     margin-top: 3rem; */
+/*     margin-bottom: 3rem; */
   }
 }
 
@@ -77,7 +77,9 @@ nav {
     overflow-x: hidden;
   }
 
-  
+  .content-left{
+  width:100%;
+  }
   .nav-links {
     position: absolute;
     height: 90vh;
@@ -143,7 +145,7 @@ li a:hover::after {
 /* main section///////////////////////////////////////////// */
 main {
   display: flex;
-  height: 100vh;
+/*   height: 100vh; */
   align-items: center;
   justify-content: center;
   /* background-color: red; */
@@ -151,10 +153,9 @@ main {
 .hero-img {
   max-width: 650px;
 }
-
+/* 
 .content-left {
-  max-width: 30%;
-}
+} */
 
 h1 {
   font-size: 50px;
