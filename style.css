@@ -58,15 +58,17 @@ nav {
     width: 60%;
   }
   main {
-    display: flex;
     flex-direction: column;
   }
 
+  .content-left{
+    width: 650px;
+  }
   .container {
     display: flex;
     flex-direction: column;
-    padding-right: 8%;
-    padding-left: 8%;
+    /* padding-right: 8%;
+    padding-left: 8%; */
   }
 }
 
@@ -84,7 +86,6 @@ nav {
 
   h1 h2{
     width: 100%;
-    text-align: center;
   }
   .nav-links {
     position: absolute;
@@ -159,7 +160,8 @@ main {
 }
 
 .content-left {
-  width: 30%;
+  padding:15px 30px;
+  width: 500px;
 }
 
 h1 {
